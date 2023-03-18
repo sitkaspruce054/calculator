@@ -312,5 +312,10 @@ backspace.addEventListener('click', () =>{
     }
 })
 
+const dark_switch = document.querySelector('#toggly')
+dark_switch.addEventListener('click',() =>{
+    document.querySelectorAll('*').forEach(el => el.classList.toggle('dark-mode'))
+})
+
 
 
